@@ -28,7 +28,7 @@ public class stepdefination4 {
 	public void validate_positive_response_code_received() {
 	    // Write code here that turns the phrase above into concrete actions
 		response = RestAssured.given().log().all().header("Content-Type", "application/json")
-				.body(response.getBody().asString()).when().get("/api/latest").then().log().all().assertThat()
+				.body(response.getBody().asString()).when().get("/api/").then().log().all().assertThat()
 				.statusCode(404).extract().response();
 	}
 

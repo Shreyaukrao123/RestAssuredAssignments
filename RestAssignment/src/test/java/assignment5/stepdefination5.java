@@ -32,7 +32,7 @@ public class stepdefination5 {
 	    // Write code here that turns the phrase above into concrete actions
     	int StatusCode = response.getStatusCode();
 
-		Assert.assertTrue(StatusCode == 200);
+		Assert.assertTrue(StatusCode == 400);
     	String contentType = response.getContentType();
 		Assert.assertEquals(contentType /* actual value */, "application/json" /* expected value */);
 		
