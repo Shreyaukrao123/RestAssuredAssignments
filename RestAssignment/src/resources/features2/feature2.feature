@@ -17,12 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: API for foreign exchange 
+Feature: API for foreign exchange
   I want to use this template for my feature file
+
   @tag1
-Scenario :
-Given API for foreign exchange 
-When posted with future date information
-Then validate positive response code received
+  Scenario: Title of your scenario
+    Given API for foreign exchange 
+    When posted with future date information
+    Then validate positive response code received
 
   

@@ -1,68 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-07T17:11:35 IST" name="Default suite" finished-at="2020-12-07T17:11:41 IST" duration-ms="5846">
+  <suite started-at="2020-12-07T18:42:47 IST" name="Default suite" finished-at="2020-12-07T18:42:51 IST" duration-ms="3575">
     <groups>
     </groups>
-    <test started-at="2020-12-07T17:11:35 IST" name="Default test" finished-at="2020-12-07T17:11:41 IST" duration-ms="5846">
-      <class name="assignment5.stepdefination5">
-        <test-method signature="api_for_foreign_exchange()[pri:0, instance:assignment5.stepdefination5@659a969b]" started-at="2020-12-07T17:11:35 IST" name="api_for_foreign_exchange" finished-at="2020-12-07T17:11:36 IST" duration-ms="1126" status="PASS">
+    <test started-at="2020-12-07T18:42:47 IST" name="Default test" finished-at="2020-12-07T18:42:51 IST" duration-ms="3575">
+      <class name="assignment7.stepDefination7">
+        <test-method signature="api_for_foreign_exchange()[pri:0, instance:assignment7.stepDefination7@659a969b]" started-at="2020-12-07T18:42:47 IST" name="api_for_foreign_exchange" finished-at="2020-12-07T18:42:48 IST" duration-ms="799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- api_for_foreign_exchange -->
-        <test-method signature="posted_with_correct_information()[pri:0, instance:assignment5.stepdefination5@659a969b]" started-at="2020-12-07T17:11:36 IST" name="posted_with_correct_information" finished-at="2020-12-07T17:11:41 IST" duration-ms="4576" status="PASS">
+        <test-method signature="posted_with_future_date_information()[pri:0, instance:assignment7.stepDefination7@659a969b]" started-at="2020-12-07T18:42:48 IST" name="posted_with_future_date_information" finished-at="2020-12-07T18:42:51 IST" duration-ms="2710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- posted_with_correct_information -->
-        <test-method signature="validate_positive_response_code_received()[pri:0, instance:assignment5.stepdefination5@659a969b]" started-at="2020-12-07T17:11:41 IST" name="validate_positive_response_code_received" finished-at="2020-12-07T17:11:41 IST" duration-ms="43" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Response body does not contain John expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Response body does not contain John expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at assignment5.stepdefination5.validate_positive_response_code_received(stepdefination5.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- posted_with_future_date_information -->
+        <test-method signature="validate_positive_response_code_received()[pri:0, instance:assignment7.stepDefination7@659a969b]" started-at="2020-12-07T18:42:51 IST" name="validate_positive_response_code_received" finished-at="2020-12-07T18:42:51 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_positive_response_code_received -->
-      </class> <!-- assignment5.stepdefination5 -->
+      </class> <!-- assignment7.stepDefination7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

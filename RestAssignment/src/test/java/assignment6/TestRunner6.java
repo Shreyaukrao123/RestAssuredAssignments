@@ -1,4 +1,4 @@
-package assignment5;
+package assignment6;
 
 import org.junit.runner.RunWith;
 
@@ -7,13 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src//resources//features",
-        glue="assignment5",
+		features = "src//resources//features2",
+        glue="assignment6",
         plugin=
-        { "pretty", "html:target/cucumber-reports5" },
+        { "pretty", "html:target/cucumber-reports6" },
         monochrome = true
         )
 
-public class TestRunner5 {
+public class TestRunner6 {
 
 }
