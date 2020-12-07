@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment3.stepdefination3">
+      <class name="assignment5.stepdefination5">
         <methods>
           <include name="validate_positive_response_code_received"/>
         </methods>
-      </class> <!-- assignment3.stepdefination3 -->
+      </class> <!-- assignment5.stepdefination5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

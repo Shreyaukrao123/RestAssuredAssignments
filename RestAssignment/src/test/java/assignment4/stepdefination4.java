@@ -21,7 +21,7 @@ public class stepdefination4 {
 	@When("posted with correct Information")
 	public void posted_with_correct_information() {
 	    // Write code here that turns the phrase above into concrete actions
-		response = RestAssured.get("/api/latest");
+		response = RestAssured.get("/api/");
 	}
 	@Test
 	@Then("validate positive response code received")
